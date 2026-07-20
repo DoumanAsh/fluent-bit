@@ -14,6 +14,7 @@ set(src
   )
 
 set(libs cio-crc32)
+set(libs ${libs} fts)
 
 if(${CMAKE_SYSTEM_NAME} MATCHES "Windows")
   set(src
